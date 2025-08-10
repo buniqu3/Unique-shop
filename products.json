@@ -1,0 +1,144 @@
+[
+  {
+    "id": "clear-bottle-owala",
+    "title": "Clear Leak-Proof Water Bottle (School-Approved)",
+    "subtitle": "Trending BTS swap for banned metal bottles",
+    "price": 14.99,
+    "commission": 10,
+    "badge": "BTS 2025",
+    "category": "Back to School",
+    "image": "https://picsum.photos/seed/bottle/640/480",
+    "link": "https://example.com/affiliate/clear-bottle",
+    "tags": [
+      "back-to-school",
+      "water bottle",
+      "clear",
+      "school approved"
+    ],
+    "featured": true,
+    "added": "2025-08-10"
+  },
+  {
+    "id": "heatless-curlers",
+    "title": "Heatless Curlers Set",
+    "subtitle": "Overnight waves \u2014 no heat, TikTok fave",
+    "price": 12.99,
+    "commission": 12,
+    "category": "Beauty & Hair",
+    "image": "https://picsum.photos/seed/curlers/640/480",
+    "link": "https://example.com/affiliate/heatless-curlers",
+    "tags": [
+      "beauty",
+      "hair",
+      "curlers",
+      "viral"
+    ],
+    "featured": true,
+    "added": "2025-07-30"
+  },
+  {
+    "id": "pet-hair-roller",
+    "title": "Reusable Pet Hair Remover Roller",
+    "subtitle": "Quick clean for couches & car seats",
+    "price": 16.95,
+    "commission": 15,
+    "category": "Home & Pets",
+    "image": "https://picsum.photos/seed/pethair/640/480",
+    "link": "https://example.com/affiliate/pet-hair-roller",
+    "tags": [
+      "home",
+      "pets",
+      "cleaning",
+      "viral"
+    ],
+    "featured": false,
+    "added": "2025-07-22"
+  },
+  {
+    "id": "mini-label-printer",
+    "title": "Pocket Bluetooth Label Printer",
+    "subtitle": "Organize dorms, studios & inventory",
+    "price": 27.99,
+    "commission": 12,
+    "category": "Tech & Office",
+    "image": "https://picsum.photos/seed/label/640/480",
+    "link": "https://example.com/affiliate/mini-printer",
+    "tags": [
+      "label",
+      "printer",
+      "organization",
+      "bts"
+    ],
+    "featured": true,
+    "added": "2025-08-02"
+  },
+  {
+    "id": "nonstick-pan",
+    "title": "Viral Nonstick Pan (PFOA-free)",
+    "subtitle": "Easy cleanup, budget-friendly",
+    "price": 24.99,
+    "commission": 8,
+    "category": "Kitchen",
+    "image": "https://picsum.photos/seed/pan/640/480",
+    "link": "https://example.com/affiliate/pan",
+    "tags": [
+      "kitchen",
+      "cooking",
+      "gadget"
+    ],
+    "featured": false,
+    "added": "2025-07-18"
+  },
+  {
+    "id": "press-on-nails",
+    "title": "Long-Lasting Press-On Nails Kit",
+    "subtitle": "Salon look in minutes",
+    "price": 9.99,
+    "commission": 15,
+    "category": "Beauty & Hair",
+    "image": "https://picsum.photos/seed/nails/640/480",
+    "link": "https://example.com/affiliate/presson",
+    "tags": [
+      "beauty",
+      "nails",
+      "trending"
+    ],
+    "featured": false,
+    "added": "2025-08-05"
+  },
+  {
+    "id": "tripod-light",
+    "title": "Phone Tripod with LED Light",
+    "subtitle": "Perfect for live selling & Shorts",
+    "price": 21.99,
+    "commission": 10,
+    "category": "Creator Gear",
+    "image": "https://picsum.photos/seed/tripod/640/480",
+    "link": "https://example.com/affiliate/tripod",
+    "tags": [
+      "content",
+      "creator",
+      "gear",
+      "tiktok"
+    ],
+    "featured": true,
+    "added": "2025-07-28"
+  },
+  {
+    "id": "lint-shaver",
+    "title": "Fabric Lint Shaver",
+    "subtitle": "Make old hoodies look new",
+    "price": 11.49,
+    "commission": 12,
+    "category": "Home & Pets",
+    "image": "https://picsum.photos/seed/lint/640/480",
+    "link": "https://example.com/affiliate/lint",
+    "tags": [
+      "clothes",
+      "home",
+      "gadget"
+    ],
+    "featured": false,
+    "added": "2025-07-12"
+  }
+]

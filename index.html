@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>b.Uniqu3 Picks — Curated Deals</title>
+  <meta name="description" content="A fast, free, one-page storefront curated by B.Uniqu3. Auto-load products from JSON. Works on Netlify/GitHub Pages.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="brand">
+    <img src="assets/logo.png" alt="logo" class="logo"/>
+    <div>
+      <h1>b.Uniqu3 Picks</h1>
+      <p class="tagline">Daily deals & viral finds — no fluff.</p>
+    </div>
+  </div>
+  <nav class="controls">
+    <input id="search" type="search" placeholder="Search products…">
+    <select id="category"></select>
+    <select id="sort">
+      <option value="featured">Featured</option>
+      <option value="price-asc">Price ↑</option>
+      <option value="price-desc">Price ↓</option>
+      <option value="commission-desc">Commission % ↓</option>
+      <option value="newest">Newest</option>
+    </select>
+    <button id="cartBtn" class="cart-btn" aria-label="Open cart">🛒 <span id="cartCount">0</span></button>
+  </nav>
+</header>
+
+<main>
+  <section class="hero">
+    <h2>Back-to-School & Viral TikTok Picks</h2>
+    <p>Everything here ships from major marketplaces. Click “Buy” to purchase on the retailer with my affiliate link. I never see your payment info.</p>
+  </section>
+
+  <section id="grid" class="grid"></section>
+</main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <p>© <span id="year"></span> b.Uniqu3. As an affiliate, I may earn from qualifying purchases. </p>
+    <a href="#" id="exportBtn">Export product data (CSV)</a>
+    <a href="products.json" target="_blank" rel="noopener">products.json</a>
+  </div>
+</footer>
+
+<!-- Cart drawer -->
+<aside id="cart" class="cart">
+  <div class="cart-head">
+    <h3>Your picks</h3>
+    <button id="closeCart" aria-label="Close">✕</button>
+  </div>
+  <div id="cartItems" class="cart-items"></div>
+  <div class="cart-foot">
+    <div class="cart-total"><span>Total:</span> <strong id="cartTotal">$0.00</strong></div>
+    <a id="checkout" class="checkout" href="#" target="_blank" rel="noopener">Buy on retailer</a>
+  </div>
+</aside>
+
+<script src="script.js"></script>
+</body>
+</html>
